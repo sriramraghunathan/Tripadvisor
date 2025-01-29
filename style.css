@@ -115,7 +115,7 @@ body {
   padding: 25px 50px;
   background-color: rgba(71, 232, 159);
   border-radius: 80px;
-  margin-left: 650px;
+  margin-left: 43%;
   font-size: 30px;
   border: transparent;
 }
@@ -129,9 +129,9 @@ body {
   background-color:#D8D5FB ;
   align-items: center;
   border-radius: 20px;
-  padding: 60px ;
+  padding: 50px ;
   margin-left: 2%;
-  margin-top: 90px;
+  margin-top: 40px;
 }
 .main-image-content{
   display: flex;
@@ -223,4 +223,31 @@ body {
 }
 .footer-section-image img{
   align-items: center;
+}
+@media screen and (max-width: 1800px) {
+  .main-image-content{
+  display: flex;
+  position: absolute;
+  top: 100%;
+  left: 11%;
+  align-items: center;
+}
+.main-image-content-decs{
+  position: absolute;
+  top: 101%;
+  left: 4%;
+}
+  .navbar-s2-button {
+  padding: 25px 50px;
+  background-color: rgba(71, 232, 159);
+  border-radius: 80px;
+  margin-left: 38%;
+  font-size: 30px;
+  border: transparent;
+}
+.destination-section-images img{
+    width: 320px;
+    border-radius: 20px;
+    margin: 20px;
+}
 }
