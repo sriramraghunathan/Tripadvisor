@@ -1,0 +1,226 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Gabarito", serif;
+}
+/* header navbar */
+.navbar-section-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  margin-left: 10px;  
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 95%;
+  background-color: white;
+  
+  
+}
+.navbar-section-top img {
+  width: 350px;
+}
+.navbar-section-top h1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border: transparent;
+  border-radius: 40px;
+  gap: 10px;
+  text-align: center;
+}
+.navbar-section-top h1:hover {
+  background-color: rgba(128, 128, 128, 0.2);
+}
+.navbar-section-top-form {
+  font-size: 20px;
+}
+.navbar-section-top-form:hover {
+  text-decoration: underline;
+  color: rgba(96, 93, 93, 0.9);
+  font-size: 20px;
+}
+.navbar-section-top-right {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  justify-content: space-around;
+  margin-left: 5%;
+  padding: 10px;
+}
+.navbar-section-top-right:hover {
+  background-color: rgba(128, 128, 128, 0.2);
+  padding: 10px;
+  border-radius: 40px;
+}
+
+.navbar-section-top-right p {
+  opacity: 0.2;
+  font-size: 50px;
+}
+.navbar-section-top-right-button button {
+  padding: 25px;
+  border: transparent;
+  border-radius: 40px;
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+/* title-section-and-navbar */
+.title-section {
+  font-size: 50px;
+  text-align: center;
+  padding: 70px 50px;
+  margin-top: 100px;
+}
+/* navbar-section2 */
+.navbar-section-two {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  color: black;
+}
+.navbar-section-two-search {
+  text-decoration: underline;
+}
+.navbar-section-two h1:hover {
+  text-decoration: underline;
+  color: rgba(42, 37, 37, 0.6);
+}
+
+.navbar-s2 {
+  margin: 50px 180px;
+  border: solid rgb(54, 49, 49) 1px;
+  width: 80%;
+  border-radius: 60px;
+  align-items: center;
+  padding: 7px;
+  box-shadow: 10px 10px 20px 10px rgb(131, 131, 131);
+}
+.navbar-s2 i {
+  padding: 10px;
+  font-size: 30px;
+}
+.navbar-s2-input {
+  border: none;
+  width: 40%;
+  outline: none;
+  font-size: 30px;
+}
+.navbar-s2-button {
+  padding: 25px 50px;
+  background-color: rgba(71, 232, 159);
+  border-radius: 80px;
+  margin-left: 650px;
+  font-size: 30px;
+  border: transparent;
+}
+.navbar-s2-button:hover {
+  background-color: rgba(71, 232, 159, 0.6);
+}
+/* main-image */
+.main-image img{
+  position: relative;
+  width: 90%;
+  background-color:#D8D5FB ;
+  align-items: center;
+  border-radius: 20px;
+  padding: 60px ;
+  margin-left: 2%;
+  margin-top: 90px;
+}
+.main-image-content{
+  display: flex;
+  position: absolute;
+  bottom: 9%;
+  left: 13%;
+  align-items: center;
+}
+.main-image-content h1{
+  font-size: 30px;
+  color: rgb(71, 76, 161);
+}
+.main-image-content button{
+  background-color: rgb(243, 241, 241);
+  border: none;
+  padding: 20px 25px;
+  margin-left: 40px;
+  border-radius: 10px;
+  font-weight: 900;
+  font-size: 15px;
+}
+.main-image-content-decs{
+  position: absolute;
+  top: 90%;
+  left: 12%;
+}
+.main-image-content-decs button{
+  padding: 20px 60px;
+  border-radius: 40px;
+  background-color: #52327C;
+  border: none;
+  margin-top: 20px;
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+}
+.main-image-content-decs h1{
+  font-size: 90px;
+  color: #52327C;
+  margin-top: 10px;
+}
+.main-image-content-decs h2{
+  font-size: 40px;
+  color: #52327C;
+  margin-top: 10px;
+}
+/* destinations-section */
+.destination-section{
+  margin: 20px;
+}
+.destination-section-title{
+  margin: 20px;
+  margin-top: 100px;
+  padding: 10px;
+  font-size: 20px;
+
+}
+.destination-section-images img{
+    width: 420px;
+    border-radius: 20px;
+    margin: 20px;
+}
+.footer-section{
+  background-color: rgba(137, 130, 130,0.1);
+ 
+}
+.footer-section-decs{
+  font-size: 30px;
+  display: flex;
+ padding:60px 20px ;
+ margin-top: 20px;
+ gap: 90px;
+
+}
+.footer-section-decs p{
+  padding: 10px;
+ 
+}
+.footer-section-decs p:hover{
+   color: rgba(96, 93, 93, 0.9);
+   text-decoration: underline;
+
+}
+.footer-section-image{
+  display: flex;
+  margin: 20px;
+  padding: 10px;
+  
+}
+.footer-section-image img{
+  align-items: center;
+}
